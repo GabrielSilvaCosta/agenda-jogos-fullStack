@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Jogo" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "local" TEXT NOT NULL,
+    "data" DATETIME NOT NULL,
+    "hora" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL
+);

@@ -1,0 +1,30 @@
+POST http://localhost:3000/jogos
+Content-Type: application/json
+
+{
+    "local": "Estadio Demazão",
+    "data": "2024-04-25T10:00:00.000Z",
+    "hora": "00:00:00"
+}
+
+
+GET http://localhost:3000/
+
+GET http://localhost:3000/jogos/6
+
+
+PUT http://localhost:3000/jogos/2
+Content-Type: application/json
+
+{
+    "local": "Arena São Francisco",
+    "data": "2024-04-28T10:00:00.000Z",
+    "hora": "16:00:00"
+}
+
+
+DELETE http://localhost:3000/jogos/6
+
+
+
+
